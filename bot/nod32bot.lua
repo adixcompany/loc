@@ -242,14 +242,14 @@ function create_config( )
     "info",
     "lock_join"
     },
-	    sudo_users = {158990680},--Sudo users
+	    sudo_users = {226726601},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
-
-channel : @Nod32team
-sodu : @behrooZyaghi
+ربات کامپکت
+با این ربات به راحتی میتوانید نقشه مکان مورد نظر را دریافت کنید
+		
+Channel: @adixco
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -318,175 +318,11 @@ ch: @Nod32team
 
 ]],
     help_text = [[
-NOD32 Commands list :
- 
-1-banhammer list ^
- 
-!kick [username|id]
-(کیک کردن شخص (حتی با ریپلی)
+راهنما:
+		
+/loc [نام مکان]
+دریافت نقشه
 
-!ban [ username|id]
-(بن کردن افراد (حتی با ریپلی)
-
-!unban [id]
-(انبن کردن افراد (همراه ایدی)
-
-!kickme
-خروج از گروه
-
-2-Statistics list ^
-
-!who
-لیست+ایدی همه اعضا
-
-!all
-دریافت اطلاعات کلی گروه
-
-!stats
-امار کلی گروه
-
-!modlist
-لیست مدیران گروه
-
-!banlist
-لیست اعضا بن شده
-
-3-Rate Member ^
-
-!setowner [id]
-(id ایجاد مدیر جدید (همراه 
-
-!promote [username]
-(ایجاد ادمین جدید (همراه ریپلی)
-
-!demote [username]
-(برکنار کردن ادمین (همراه ریپلی)
-
-4-General changes ^
-
-!setname [name]
-ایجاد اسم جدید برای گروه
-
-!setphoto
-ایجاد عکس جدید برای پروفایل گروه
-
-!set rules <text>
-ایجاد قانون جدید برای گروه
-
-!set about <text>
-ایجاد درباره گروه
-
-!setflood [value]
-حساسیت به اسپم در گروه
-
-5-View details ^
-
-!about
-درباره گروه
-
-!rules
-قوانین گروه
-
-!settings
-دیدن تنظیمات فعلی گروه
-
-!help
-لیست دستورات ربات
-
-6-Security Group ^
-
-!lock member 
-قفل ورود اعضا جدید
-
-!lock join
-قفل ورود اعضا جدید توسط لینک
-
-!lock name
-قفل اسم گروه
-
-!lock chat
-قفل چت ممنوع
-
-!lock leave
-قفل خروج=بن گروه
-
-!lock chat
-قفل چت ممنوع گروه
-
-!unlock 
-[*name*leave*member]
-[chat*join*bots*photo]
-باز کردن دستورات قفل شده
-
-7-Fun time ^
-
-!time country city
-ساعت کشور مورد نظر
-
-!loc country city
-مشخصات کشور و شهر مورد نظر
-
-!google
-سرچ مطلب مورد نظر از گوگل
- 
- !gps
- مکان کشور , شهر مورد نظر تحت گوگل
-
-8-Service Provider ^
-
-!newlink
-ایجاد لینک جدید
-
-!link
-نمایش لینک گروه
-
-!linkpv
-فرستادن لینک گروه تو پیوی
-(حتما شماره ربات را سیو کنید)
-
-!invite username
-اضافه کردن شخص تو گروه
-(حتما شماره ربات را سیو کرده باشد)
-
-9-Member Profile and Group ^
-
-!owner
-مدیر گروه
-
-!id
-ایدی شخص مورد نظر
-
-!res [username]
-در اوردن ایدی شخص مورد نظر
-
-!info 
-مخشصات فرد مورد نظر
-
-!settings
-تنظیمات فعلی گروه
-
-10-bot number & support ^
-
-!botnumber
-دریافت شماره ربات
-
-!support
-دعوت سازنده ربات به گروه
-(در صورت وجود مشکل)
-
-!version
-ورژن ربات
-
-you can use both "/" and "!" 
-.شما میتوانید از ! و / استفاده کنید
-
-Developer: @BehroozYaghi
-توسعه دهنده
-
-channel: @Nod32team
-کانال ما
-
-G00D LUCK ^_^
 ]]
   }
   serialize_to_file(config, './data/config.lua')
